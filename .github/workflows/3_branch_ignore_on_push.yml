@@ -12,3 +12,4 @@ jobs:
       - name: Comentário
         run: |
           echo "Comentário PUSH WORKFLOW - Branch Ignore"
+          
