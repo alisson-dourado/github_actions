@@ -7,8 +7,12 @@ on:
 jobs:
   on-push:
 
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - name: Comentário
         run: |
           echo "Comentário PUSH WORKFLOW - Branch Ignore"
+      - name: Finalização
+        run: |
+          echo "Workflow finalizado com sucesso!"
+          
